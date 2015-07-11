@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Font Size"
+        android:summary="To enter font size click on font size"
+        android:dialogTitle="Font Size Dialog"
+        android:defaultValue="@string/default_value"
+        android:dialogMessage="Enter Font Size"
+        android:key="fontSize"/>
+
+    <CheckBoxPreference
+        android:key="bold"
+        android:title="Bold Text"
+        android:summary="Check here to bold text"
+        android:defaultValue="false"/>
+
+</PreferenceScreen>
